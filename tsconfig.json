@@ -2,13 +2,12 @@
   "compilerOptions": {
     "allowJs": true,
     "allowSyntheticDefaultImports" : true,
-    "alwaysStrict": true,
+    "declaration": true,
     "esModuleInterop": true,
     "module": "es6",
-    "noImplicitAny": true,
     "outDir": "./dist/",
     "sourceMap": true,
-    "strictNullChecks": true,
+    "strict": true,
     "target": "es5"
   },
   "include": ["./src/**/*.ts"]
